@@ -1,0 +1,126 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,600&display=swap');
+/* end fonts */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.container{
+    position: relative;
+    max-width: 450px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 5px;
+}
+.container .login{
+    padding: 30px; 
+} 
+.container .login .tittle{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .login .tittle::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 30px;
+    background-color:aqua;
+    border-radius: 20px;
+}
+
+.login .input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input input{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0px 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-bottom:  2px solid gray;
+}
+
+.input i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+}
+
+.input i.fa-lock{
+    left: 0;
+}
+.input i.fa-eye-slash{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+ .check-con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.check-con .check-input{
+
+    display: flex;
+    align-items: center;
+}
+.check-input input{
+    margin: 0 6px;
+}
+.login .text{
+    color: #333;
+    font-size: 14px;
+}
+
+.form a{
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+
+ .form .button {
+    background-color: #6b8ce6;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+    transition: all 0.2s ease;
+}
+
+.form .button:hover{
+    background-color: #4070f4;
+}
+ .form .sign{
+    margin-top: 20px;
+    align-items: center;
+ }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <!-- font awasome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form">
+            <div class="login">
+                <span class="tittle"> login</span>
+
+                <form action="#">
+                    <div class="input">
+                        <input type="email" placeholder="enter your emil" required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" class="pass" placeholder="enter your password" required>
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-regular fa-eye-slash show"></i>
+                    </div>
+
+                    <div class="check-con">
+
+                        <div class="check-input">
+                            <input type="checkbox" id="check">
+                            <label for="check" class=" text">Remember me</label>
+                        </div>
+
+                        <a href="#" class="text"> Forget password</a>
+                    </div>
+                    <div class="input">
+                        <input type="button" class="button" value="Login">
+                    </div>
+
+                </form>
+                <div class="sign">
+                    <span class="text">Not a member?</span>
+                    <a href="#" class="sign ">Sign up</a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
